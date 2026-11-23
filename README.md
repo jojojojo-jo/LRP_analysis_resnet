@@ -1,2 +1,2 @@
 # LRP_analysis_resnet
-This research evaluates the stability of Layer-wise Relevance Propagation (LRP) explanations when a ResNet model is subjected to diverse perturbations (FGSM, Red, Violet, Gaussian). 
+This research evaluates the stability of Layer-wise Relevance Propagation (LRP) explanations when a ResNet model is subjected to diverse perturbations. While most studies focus on adversarial attacks (FGSM), this project explores a broader spectral suite of noise: high-frequency (Violet), mid-frequency (Gaussian), and low-frequency (Red/Brownian). We hypothesize that the spatial frequency of noise dictates specific failure modes in LRP saliency maps, revealing how different ResNet layers process and misinterpret distorted features.
